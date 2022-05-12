@@ -1,34 +1,3 @@
-
-
-def moeda_escolhida(op):
-    if op == 1:
-        return 'USD'
-    if op == 2:
-        return 'EUR'
-    if op == 3:
-        return 'JPY'
-    if op == 4:
-        return 'BRL'
-    if op == 5:
-        outra_moeda()
-
-def moeda_para_converter(op):
-    if op == 1:
-        return '"USD"'
-    if op == 2:
-        return '"EUR"'
-    if op == 3:
-        return '"JPY"'
-    if op == 4:
-        return '"BRL"'
-    if op == 5:
-        outra_moeda()
-
-def outra_moeda():
-    print()
-    divisor('Selecione uma opção:')
-    return 0
-
 def verifica_continente(op):
     if op == 1:
         return africa
@@ -56,10 +25,6 @@ def verifica_moeda_continente(op):
         return europa_moeda
     if op == 6:
         return oceania_moeada
-
-
-moedas = {1:"Dólar", 2:"Euro", 3:"Iene", 4:"Real", 5:"Outro"}
-
 
 continentes = { 1:"Africa",
                 2:"América do Norte",
